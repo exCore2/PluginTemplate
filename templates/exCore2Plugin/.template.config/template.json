@@ -2,11 +2,11 @@
   "$schema": "http://json.schemastore.org/template",
   "author": "",
   "classifications": [
-    "HUD"
+    "ExileCore2"
   ],
-  "identity": "exApiTools.Plugin",
-  "name": "Exile Api Plugin",
-  "shortName": "exApiPlugin",
+  "identity": "exCore2.Plugin",
+  "name": "ExileCore2 Plugin",
+  "shortName": "exCore2Plugin",
   "preferNameDirectory": true,
   "sourceName": "Plugin_Name",
   "tags": {

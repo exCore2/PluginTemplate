@@ -1,6 +1,6 @@
-﻿using ExileCore;
-using ExileCore.PoEMemory.MemoryObjects;
-using SharpDX;
+﻿using System.Drawing;
+using ExileCore2;
+using ExileCore2.PoEMemory.MemoryObjects;
 using Vector2 = System.Numerics.Vector2;
 
 namespace Plugin_Name;
@@ -27,21 +27,10 @@ public class Plugin_Name : BaseSettingsPlugin<Plugin_NameSettings>
         //For example, Radar builds the zone map texture here
     }
 
-    public override Job Tick()
+    public override void Tick()
     {
         //Perform non-render-related work here, e.g. position calculation.
-        //This method is still called on every frame, so to really gain
-        //an advantage over just throwing everything in the Render method
-        //you have to return a custom job, but this is a bit of an advanced technique
-        //here's how, just in case:
-        //return new Job($"{nameof(Plugin_Name)}MainJob", () =>
-        //{
-        //    var a = Math.Sqrt(7);
-        //});
-
-        //otherwise, just run your code here
         //var a = Math.Sqrt(7);
-        return null;
     }
 
     public override void Render()

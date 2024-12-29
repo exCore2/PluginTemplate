@@ -3,8 +3,8 @@
   <PropertyGroup>
     <PackageType>Template</PackageType>
     <PackageVersion>2.0</PackageVersion>
-    <PackageId>exApiTools.Plugin.Template</PackageId>
-    <Title>Exile Api Plugin Template</Title>
+    <PackageId>exCore2.Plugin.Template</PackageId>
+    <Title>ExileCore2 Plugin Template</Title>
     <Authors></Authors>
     <Description>Templates to use developing a plugin.</Description>
     <PackageTags>dotnet-new;templates</PackageTags>
